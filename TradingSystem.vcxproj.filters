@@ -30,12 +30,6 @@
     <ClCompile Include="main_test.cpp">
       <Filter>TEST</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="mock_driver.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -50,6 +44,12 @@
     </ClCompile>
     <ClCompile Include="auto_trading_system_test.cpp">
       <Filter>TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="kiwer_adapter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nemo_api_adapter.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

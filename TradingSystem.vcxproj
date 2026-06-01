@@ -149,6 +149,7 @@
     <ClCompile Include="main_test.cpp" />
     <ClCompile Include="mock_driver.cpp" />
     <ClCompile Include="nemo_api.cpp" />
+    <ClCompile Include="nemo_api_adapter.cpp" />
     <ClCompile Include="nemo_test.cpp" />
   </ItemGroup>
   <ItemGroup>
