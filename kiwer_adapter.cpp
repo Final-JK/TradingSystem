@@ -1,5 +1,6 @@
 #include "interface.h"
 #include "kiwer_api.cpp"
+#include <Windows.h>
 
 class KiwerAdapter : public IStockerBrockerDriver {
 public:
@@ -16,6 +17,7 @@ public:
 	}
 
 	int getPrice(string stock_code, int minute = 0) override {
+		Sleep(minute);
 		return kiwer_api.currentPrice(stock_code);
 	}
 private:
