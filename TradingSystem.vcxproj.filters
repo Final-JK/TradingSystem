@@ -30,23 +30,17 @@
     <ClCompile Include="main_test.cpp">
       <Filter>TEST</Filter>
     </ClCompile>
-    <ClCompile Include="inteface.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="kiwer_test.cpp">
-      <Filter>TEST</Filter>
+    <ClCompile Include="mock_driver.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="nemo_test.cpp">
-      <Filter>TEST</Filter>
-    </ClCompile>
-    <ClCompile Include="auto_trading_system_test.cpp">
-      <Filter>TEST</Filter>
+    <ClCompile Include="inteface.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
