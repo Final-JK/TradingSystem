@@ -2,10 +2,10 @@
 #include "kiwer_adapter.cpp"
 
 #define USING_MOCK 1
+using namespace testing;
 
 #if (1 == USING_MOCK)
 #include "mock_driver.cpp"
-using namespace testing;
 #endif
 
 //=======================
@@ -59,10 +59,10 @@ TEST(TradingSystemKiwerDriver, buyTest) {
         .Times(1);
     oss << expect;
 
-    mockDrv.buy(STOCKCODE, PRICE, COUNT);
+    mockDrv.buy(STOCKCODE, COUNT, PRICE);
 #else
     IStockerBrockerDriver* kiwerDrv = new KiwerAdapter();
-    kiwerDrv->buy(STOCKCODE, PRICE, COUNT);
+    kiwerDrv->buy(STOCKCODE, COUNT, PRICE);
 #endif
 
     std::cout.rdbuf(oldCoutStreamBuf); // 기존 cout의 출력 buffer되돌려 놓기
@@ -90,10 +90,10 @@ TEST(TradingSystemKiwerDriver, sellTest) {
         .Times(1);
     oss << expect;
 
-    mockDrv.sell(STOCKCODE, PRICE, COUNT);
+    mockDrv.sell(STOCKCODE, COUNT, PRICE);
 #else
     IStockerBrockerDriver* kiwerDrv = new KiwerAdapter();
-    kiwerDrv->sell(STOCKCODE, PRICE, COUNT);
+    kiwerDrv->sell(STOCKCODE, COUNT, PRICE);
 #endif
 
     std::cout.rdbuf(oldCoutStreamBuf); // 기존 cout의 출력 buffer되돌려 놓기
