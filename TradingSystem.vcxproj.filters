@@ -16,6 +16,9 @@
     <Filter Include="TEST">
       <UniqueIdentifier>{50dcc807-b91c-4fec-844d-b0ecd2287b76}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\AutoTradingSystem">
+      <UniqueIdentifier>{b5e1f396-09c7-4e30-8de7-3e49982fbf6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kiwer_api.cpp">
@@ -35,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="inteface.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoTradingSystem.cpp">
+      <Filter>소스 파일\AutoTradingSystem</Filter>
     </ClCompile>
     <ClCompile Include="kiwer_test.cpp">
       <Filter>TEST</Filter>

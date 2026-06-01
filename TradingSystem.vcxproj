@@ -140,6 +140,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AutoTradingSystem.cpp" />
     <ClCompile Include="auto_trading_system_test.cpp" />
     <ClCompile Include="kiwer_adapter.cpp" />
     <ClCompile Include="kiwer_api.cpp" />
