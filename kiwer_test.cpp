@@ -104,7 +104,6 @@ TEST(TradingSystemKiwerDriver, sellTest) {
 TEST(TradingSystemKiwerDriver, getPriceTest) {
     // getPrice 가 되는지 체크한다.
     std::string STOCKCODE = "A-team";
-    int expect = 100;
     int returnValue = -1;
 
     std::ostringstream oss; // 임시 buffer생성

@@ -12,7 +12,7 @@ using namespace testing;
 // 네모 드라이버 test항목
 
 TEST(TradingSystemNemoDriver, loginTest) {
-    std::string expect = "[NEMO] A-team login GOOD\n";
+    std::string expect = "[NEMO]A-team login GOOD\n";
     std::string ID = "A-team";
     std::string PASSWD = "1234";
 
@@ -42,7 +42,7 @@ TEST(TradingSystemNemoDriver, loginTest) {
 
 TEST(TradingSystemNemoDriver, buyTest) {
     // buy 가 되는지 체크한다.
-    std::string expect = "[Nemo] A-team : buy stock ( price : 1234 ) * ( count : 100000)\n";
+    std::string expect = "[Nemo]A-team : buy stock ( price : 1234 ) * ( count : 100000)\n";
     std::string STOCKCODE = "A-team";
     int PRICE = 1234;
     int COUNT = 100000;
@@ -73,7 +73,7 @@ TEST(TradingSystemNemoDriver, buyTest) {
 
 TEST(TradingSystemNemoDriver, sellTest) {
     // sell 이 되는지 체크한다.
-    std::string expect = "[NEMO] A-team : sell stock ( price : 1234 ) * ( count : 100000)\n";
+    std::string expect = "[NEMO]A-team : sell stock ( price : 1234 ) * ( count : 100000)\n";
     std::string STOCKCODE = "A-team";
     int PRICE = 1234;
     int COUNT = 100000;
@@ -104,7 +104,6 @@ TEST(TradingSystemNemoDriver, sellTest) {
 TEST(TradingSystemNemoDriver, getPriceTest) {
     // getPrice 가 되는지 체크한다.
     std::string STOCKCODE = "A-team";
-    int expect = 100;
     int returnValue = -1;
 
     std::ostringstream oss; // 임시 buffer생성
