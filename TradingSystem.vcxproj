@@ -140,6 +140,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="inteface.cpp" />
     <ClCompile Include="kiwer_api.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_test.cpp" />
