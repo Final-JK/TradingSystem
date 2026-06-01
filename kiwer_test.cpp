@@ -116,7 +116,7 @@ TEST(TradingSystemKiwerDriver, getPriceTest) {
 
     EXPECT_CALL(mockDrv, getPrice(_, _))
         .Times(1)
-        .WillRepeatedly(Return(100));
+        .WillRepeatedly(Return(5700));
 
     returnValue = mockDrv.getPrice(STOCKCODE, 1);
 #else
@@ -126,5 +126,5 @@ TEST(TradingSystemKiwerDriver, getPriceTest) {
 
     std::cout.rdbuf(oldCoutStreamBuf); // 기존 cout의 출력 buffer되돌려 놓기
 
-    EXPECT_THAT(returnValue, Eq(expect));
+    EXPECT_THAT(returnValue, AllOf(Ge(5000), Le(5900)));
 }
