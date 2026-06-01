@@ -142,6 +142,7 @@
   <ItemGroup>
     <ClCompile Include="kiwer_api.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_test.cpp" />
     <ClCompile Include="nemo_api.cpp" />
   </ItemGroup>
   <ItemGroup>
