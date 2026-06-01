@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="TradingSystem.vcxproj" />
+  <Project Path="TradingSystem.vcxproj" Id="1a2db8dc-395e-4cdf-b1dc-69ee7b7af0fa" />
 </Solution>
