@@ -1,4 +1,4 @@
-#include "inteface.cpp"
+#include "interface.h"
 #include "gmock/gmock.h"
 
 class MockDriver : public IStockerBrockerDriver {

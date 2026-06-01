@@ -1,4 +1,4 @@
-#include "inteface.cpp"
+#include "interface.h"
 #include "kiwer_api.cpp"
 
 class KiwerAdapter : public IStockerBrockerDriver {

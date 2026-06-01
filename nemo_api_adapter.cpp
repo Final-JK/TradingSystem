@@ -1,5 +1,5 @@
 #pragma once
-#include "inteface.cpp"
+#include "interface.h"
 #include "nemo_api.cpp"
 
 class NemoAdapter : public IStockerBrockerDriver {
