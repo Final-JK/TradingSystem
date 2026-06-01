@@ -140,12 +140,22 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="auto_trading_system_test.cpp" />
+    <ClCompile Include="kiwer_adapter.cpp" />
     <ClCompile Include="kiwer_api.cpp" />
+    <ClCompile Include="kiwer_test.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_test.cpp" />
+    <ClCompile Include="mock_driver.cpp" />
     <ClCompile Include="nemo_api.cpp" />
+    <ClCompile Include="nemo_api_adapter.cpp" />
+    <ClCompile Include="nemo_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
