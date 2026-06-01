@@ -1,5 +1,5 @@
 ﻿#include "gmock/gmock.h"
-#include "kiwer_api.cpp"
+#include "kiwer_adapter.cpp"
 
 //=======================
 // 키워 드라이버 test항목

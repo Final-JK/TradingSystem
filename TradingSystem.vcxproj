@@ -142,6 +142,7 @@
   <ItemGroup>
     <ClCompile Include="auto_trading_system_test.cpp" />
     <ClCompile Include="inteface.cpp" />
+    <ClCompile Include="kiwer_adapter.cpp" />
     <ClCompile Include="kiwer_api.cpp" />
     <ClCompile Include="kiwer_test.cpp" />
     <ClCompile Include="main.cpp" />
